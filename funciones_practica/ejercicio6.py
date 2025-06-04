@@ -11,7 +11,7 @@ nota3 = int(input("Ingrese la tercera nota: "))
 promediar = promedio(nota1, nota2, nota3)
 print(f"El promedio es: {promediar:.2f}")
 
-if promediar >= 3:
+if promediar >= 70:
     print("Está aprobado.")
 else:
     print("Está reprobado.")
